@@ -1,0 +1,49 @@
+/*font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Square Peg', cursive; */
+
+#my-name {
+    text-align: center;
+    font-family: "Square Peg";
+    font-size: 75px;
+}
+
+.description-container {
+    display: flex;
+    justify-content: center;
+}
+
+.description-text-container {
+    width: 600px;
+    padding: 10px;
+}
+
+.description-image {
+    flex-basis: 0;
+}
+
+.description-image img {
+    width: 300px;
+    padding: 10px;
+}
+
+.social-media-links {
+    display: flex;
+    justify-content: center;
+}
+
+.skills-list-container {
+    display: flex;
+    justify-content: center;
+}
+
+.skills-list-item {
+    height: 100px;
+    padding: 10px;
+}
+
+.social-media-links img {
+    width: 40px;
+    height: 40px;
+}

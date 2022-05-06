@@ -3,6 +3,25 @@ font-family: 'Merriweather', serif;
 font-family: 'Roboto Mono', monospace;
 font-family: 'Square Peg', cursive; */
 
+h2 {
+    font-family: "Lato";
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+p {
+    font-family: "Merriweather";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+li {
+    font-family: "Merriweather";
+    font-weight: 400;
+    font-size: 16px;
+}
+
 #my-name {
     text-align: center;
     font-family: "Square Peg";
@@ -11,7 +30,8 @@ font-family: 'Square Peg', cursive; */
 
 .description-container {
     display: flex;
-    justify-content: center;
+    justify-items: center;
+    align-items: center;
 }
 
 .description-text-container {
@@ -19,18 +39,20 @@ font-family: 'Square Peg', cursive; */
     padding: 10px;
 }
 
-.description-image {
-    flex-basis: 0;
-}
-
-.description-image img {
+.description-image-container {
     width: 300px;
     padding: 10px;
 }
 
-.social-media-links {
-    display: flex;
-    justify-content: center;
+.description-image-container img {
+    object-fit: contain;
+    height: auto;
+    width: 100%;
+}
+
+h3 {
+    text-align: center;
+    font-size: 20px;
 }
 
 .skills-list-container {
@@ -41,6 +63,11 @@ font-family: 'Square Peg', cursive; */
 .skills-list-item {
     height: 100px;
     padding: 10px;
+}
+
+.social-media-links {
+    display: flex;
+    justify-content: center;
 }
 
 .social-media-links img {

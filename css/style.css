@@ -48,7 +48,7 @@ a:hover {
 }
 
 .navigation-list {
-    background-color: lightblue;
+    background-color: rgba(92, 147, 230, 0.8);
     z-index: 1;
     position: fixed;
     width: 100%;
@@ -87,6 +87,7 @@ a:hover {
     height: 300px;
     border-radius: 15px;
     align-items: flex-end;
+    margin-top: 60px;
 }
 
 .top-section-text {
@@ -120,7 +121,7 @@ a:hover {
 }
 
 .technology-skills-container {
-    background-color: lightblue;
+    background-color: rgb(92, 147, 230);
     border-radius: 15px;
 }
 
@@ -155,9 +156,33 @@ a:hover {
 }
 
 .social-media-link:hover {
-    background-color: lightblue;
+    background-color: rgb(92, 147, 230);
 }
 
-@media screen only (max-width: 500px) {
-    
+@media (max-width: 600px) {
+    .navigation-item {
+        display: block;
+        padding: 5px;
+        border-left: none;
+        border-bottom: 1px solid black;
+    }
+
+    .top-section-image {
+        margin-top: 210px;
+        height: 150px;
+    }
+
+    .description-container {
+        flex-direction: column-reverse;
+    }
+
+    .description-text-container {
+        max-width: 95%;
+    }
+
+    .description-image-container {
+        max-width: 95%;
+        padding: 10px;
+        margin: 0 auto;
+    }
 }

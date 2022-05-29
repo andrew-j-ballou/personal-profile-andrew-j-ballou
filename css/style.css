@@ -50,7 +50,11 @@ a:hover {
     color: blue;
 }
 
-.navigation-list {
+.navigationList .nav-icon {
+    display: none;
+}
+
+.navigationList {
     background-color: rgba(92, 147, 230, 0.8);
     z-index: 1;
     position: fixed;
@@ -170,19 +174,30 @@ a:hover {
 }
 
 @media screen and (max-width: 600px) {
-    .navigation-list a:not(:first-child), .navigation-item {
+    .navigationList a:not(:first-child), .navigationList {
         display: none;
     }
+
+    .navigationList a.nav-icon {
+        float: right;
+        display: block;
+        margin-right: 20px;
+        font-size: 24px;
+    }
     
-    .navigation-item {
+    .navigationList {
         display: block;
         padding: 5px;
+        
+    }
+
+    navigation-item {
         border-left: none;
         border-bottom: 1px solid black;
     }
 
     .top-section-image {
-        margin-top: 100px;
+        margin-top: 80px;
         height: 150px;
     }
 
@@ -202,5 +217,41 @@ a:hover {
 
     .professional-experience-list {
         margin-left: 0px;
+    }
+
+    .skills-list-item {
+        height: 30px;
+        margin: 0px 5px 10px 5px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navigationList.responsive {
+        position: fixed;
+    }
+
+    .navigationList.responsive a.nav-icon {
+        position: absolute;
+        right: 5px;
+        top: 5px;
+    }
+
+    .navigationList.responsive {
+        display: block;
+    }
+
+    .navigationList.responsive .navigation-item {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+        border-left: none;
+        border-bottom: 1px solid black;
+    }
+
+    navigation-item {
+        border-left: none;
+        border-bottom: 1px solid black;
     }
 }

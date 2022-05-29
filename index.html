@@ -5,22 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Andrew J. Ballou</title>
-    <link rel="icon" href="icons\AJB-favicon.ico"
+    <link rel="icon" href="icons\AJB-favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=Roboto+Mono&family=Square+Peg&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css\style.css">
+    <script src="js/navigation.js"></script>
 </head>
 
 <body>
     <!--Navigation Links-->
     <header>
-        <nav class="navigation-list">
+        <nav class="navigationList" id="myTopnav">
             <a class="navigation-item" id="my-name" href="./index.html">Andrew J. Ballou</a>
             <a class="navigation-item" href="#">Teaching</a>
             <a class="navigation-item" href="#">Projects</a>
             <a class="navigation-item" href="#">Opinions</a>
             <a class="navigation-item" href="#">Travel</a>
+            <a href="javascript:void(0)" class="nav-icon" onclick="myFunction()">&#9776;</a>
         </nav>
     </header>
     <!--Main webpage content-->
@@ -101,15 +103,5 @@
         </div>
         </div>
     </footer>
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-    </script>
 </body>
 </html>

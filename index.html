@@ -38,7 +38,7 @@
                     In his current position at St. John Paul II School, he is responsible for managing the academic life for high school students, observing and offering feedback to teachers,
                     developing curriculum in social studies and organizing alignment of curriculum in all disciplines, and leading local professional development.</p>
                 <p>AJ is working to become a full-stack developer through <a href="https://www.codecademy.com">Codecademy</a>. He will soon be certified to teach
-                    AP Computer Science Principles. All content on this site was coded by AJ. <a href="#">Please send feedback!</a></p>
+                    AP Computer Science Principles. All content on this site was coded by AJ. <a href="#contact">Please send feedback!</a></p>
                 <p>He holds a Ph.D. in U.S. History from Boston University, an M.A. in U.S. History from the University of Colorado at Boulder, 
                     a Master of Theological Studies degree from the Iliff School of Theology in Denver, and a B.A. in Religion from Maryville College.</p>
             </div>
@@ -74,12 +74,12 @@
             <div class="technology-skills-list">
                 <h2>Skills</h2>
                 <div class="skills-list-container">
-                    <img class="skills-list-item" src="images\HTML5_1Color_Black.svg" />
-                    <img class="skills-list-item" src="images\js-square-brands.svg" />
-                    <img class="skills-list-item" src="images\react-brands.svg" />
-                    <img class="skills-list-item" src="images\node-brands.svg" />
-                    <img class="skills-list-item" src="images\python-brands.svg" />
-                    <img class="skills-list-item" src="images\github-brands.svg" />
+                    <img class="skills-list-item" src="images\HTML5_1Color_Black.svg" alt="HTML 5" />
+                    <img class="skills-list-item" src="images\js-square-brands.svg" alt="JavaScript" />
+                    <img class="skills-list-item" src="images\react-brands.svg" alt="React" />
+                    <img class="skills-list-item" src="images\node-brands.svg" alt="Node JS" />
+                    <img class="skills-list-item" src="images\python-brands.svg" alt="python" />
+                    <img class="skills-list-item" src="images\github-brands.svg" alt="GitHub" />
                 </div>
             </div>
         </div>
@@ -88,7 +88,29 @@
     <footer>
         <div class="contact-information">
         <div class="contact-information-text">
-            <h3 class="contact-link">Contact me</h3>
+            <h3 class="contact-link" id="contact">Contact me</h3>
+            <div class="form-container">
+            <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact.php">
+                <label for="Name" class="fcf-label">Your name</label>
+                <div class="fcf-input-group">
+                    <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                </div>
+            <div class="fcf-form-group">
+                <label for="Email" class="fcf-label">Your email address</label>
+                <div class="fcf-input-group">
+                    <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                </div>
+            </div>
+            <div class="fcf-form-group">
+                <label for="Message" class="fcf-label">Your message</label>
+                <div class="fcf-input-group">
+                    <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                </div>
+            </div>
+            <div class="fcf-form-group">
+                <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+            </div>
+        </div>
         </div>
         <div class="social-media-links">
             <a class="social-media-link" id="linkedin-contact" href="https://www.linkedin.com/in/andrew-ballou-3125b2a/" target="_blank">

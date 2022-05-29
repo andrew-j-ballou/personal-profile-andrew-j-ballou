@@ -16,10 +16,10 @@
     <header>
         <nav class="navigation-list">
             <a class="navigation-item" id="my-name" href="./index.html">Andrew J. Ballou</a>
-            <a class="navigation-item" href="./teaching.html">Teaching</a>
-            <a class="navigation-item" href="./projects.html">Projects</a>
-            <a class="navigation-item" href="./blog.html">Opinions</a>
-            <a class="navigation-item" href="./travel.html">Travel</a>
+            <a class="navigation-item" href="#">Teaching</a>
+            <a class="navigation-item" href="#">Projects</a>
+            <a class="navigation-item" href="#">Opinions</a>
+            <a class="navigation-item" href="#">Travel</a>
         </nav>
     </header>
     <!--Main webpage content-->
@@ -32,10 +32,10 @@
         <div class="description-container">
             <div class="description-text-container">
                 <p>AJ has over a decade of experience teaching history, U.S. government, and research in high school and college classrooms.
-                    In his current position at St. John Paul II School, he is responsible for managing the academic life for 250+ students each year, observing and offering feedback to teachers,
+                    In his current position at St. John Paul II School, he is responsible for managing the academic life for high school students, observing and offering feedback to teachers,
                     developing curriculum in social studies and organizing alignment of curriculum in all disciplines, and leading local professional development.</p>
-                <p>AJ is working to become a full-stack developer through Codecademy. He will teach AP Computer Science Principles during the upcoming
-                    school year. All content on this site was coded by AJ. <a href="./contact.html">Please send feedback!</a></p>
+                <p>AJ is working to become a full-stack developer through <a href="https://www.codecademy.com">Codecademy</a>. He will soon be certified to teach
+                    AP Computer Science Principles. All content on this site was coded by AJ. <a href="#">Please send feedback!</a></p>
                 <p>He holds a Ph.D. in U.S. History from Boston University, an M.A. in U.S. History from the University of Colorado at Boulder, 
                     a Master of Theological Studies degree from the Iliff School of Theology in Denver, and a B.A. in Religion from Maryville College.</p>
             </div>
@@ -47,14 +47,20 @@
         <div class="professional-experience-container">
             <div class="professional-experience-text-container">
                 <h2>Professional Experience</h2>
+                <ul class="professional-experience-list">
+                    <li>Current Position: Assistant Principal of Academics, St. John Paul II School, High School Division</li>
+                    <ul>
+                        <li>Teacher of U.S. History, AP U.S. Government, AP Research, and AP Computer Science Principles</li>
+                        <li>Coordinator of the school's 10-year accreditation process through <a href="https://www.neasc.org">NEASC</a></li>
+                        <li>Onboarding of new teachers; observe and evaluate current teachers</li>
+                        <li>Plan and lead professional development</li>
+                    </ul>
+                    <li>U.S. History Lecturer at several colleges in the Boston area</li>
+                    <li>Assistant Managing Editor at <a href="https://www.cambridge.org/core/journals/modern-intellectual-history"><em>Modern Intellectual History</em></a> Journal</li>
+                </ul>
                 <h3 id="resume-link">
                     <a href="AJBallou-Resume.pdf" id="resume-download" target="_blank">View AJ's Resume</a>
                 </h3>
-                <ul class="professional-experience list">
-                    <li>Assistant Principal of Academics, St. John Paul II School, High School Division</li>
-                    <li>Teaching Experience</li>
-                    <li>Other Professional Experience</li>
-                </ul>
             </div>
         </div>
         <div class="technology-skills-container">
@@ -92,5 +98,15 @@
         </div>
         </div>
     </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 </body>
 </html>

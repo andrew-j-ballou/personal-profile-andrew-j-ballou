@@ -86,7 +86,8 @@ a:hover {
 
 .top-section-image {
     display: flex;
-    background-image: url("images\cotuit-sunrise-beach-1600-1200.jpg");    background-position: center center;
+    background-image: url("../images/cotuit-sunrise-beach-1600-1200.jpg");    
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;

@@ -86,7 +86,7 @@ a:hover {
 
 .top-section-image {
     display: flex;
-    background-image: url(file:///C:/Users/ballo/OneDrive/Documents/Codecademy/personal-profile-andrew-j-ballou/images/cotuit-sunrise-beach-1600-1200.jpg);
+    background-image: url(images\cotuit-sunrise-beach-1600-1200.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

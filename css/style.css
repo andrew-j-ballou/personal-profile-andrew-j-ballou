@@ -153,7 +153,7 @@ a:hover {
     display: block;
     text-align: center;
 }
-
+/*
 div.form-container {
     display: inline-block;
     font-family: "Merriweather";
@@ -176,7 +176,7 @@ input, select, textarea {
     font-size: 16px;
     border-radius: 4px;
 }
-
+*/
 .skills-list-item {
     height: 60px;
     margin: 0px 10px 10px 10px;
